@@ -64,7 +64,7 @@ public class NetworkUtils {
             }
         }
 
-        Log.d(LOG_TAG, bookJSONString);
+//        Log.d(LOG_TAG, bookJSONString);
         return bookJSONString;
     }
 }
