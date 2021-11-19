@@ -50,6 +50,7 @@ public class NetworkUtils {
             bookJSONString = builder.toString();
         } catch (IOException e) {
             e.printStackTrace();
+            Log.d(LOG_TAG, e.toString());
         }finally {
             if (urlConnection != null) {
                 urlConnection.disconnect();
